@@ -71,14 +71,9 @@ For more information, see the article [Configure authentication session manageme
 
 ## Customize continuous access evaluation
 
-For organizations who wish to disable or strictly enforce [continuous access evaluation](concept-continuous-access-evaluation.md), this configuration is now an option in Conditional Access. 
+For organizations who wish to disable [continuous access evaluation](concept-continuous-access-evaluation.md), this configuration is now an option in Conditional Access. 
 
 **Disable** works when **All cloud apps** are selected, and no conditions are selected.
-
-**Strict enforcement** means that any critical event and policy will be enforced in real time. All CAE-capable services always get CAE tokens, whatever the client or user might ask for or do. There are two scenarios where CAE won't come into play when strict enforcement mode is turned on:
-
-- Non-CAE capable clients shouldn't get a regular token for CAE-capable services.
-- Reject when IP seen by resource provider isn't in the allowed range.
 
 ## Next steps
 
